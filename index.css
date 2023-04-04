@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: x-large;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:#2c2663 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 2);
+}
+
+img{
+    width: 50vw;
+    margin: auto;
+    display: block;
+}
+
+div#botao{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 1vw;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 194, 235);
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: #2c2663;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 2);
+}
+
+.quadrado{
+    width: 96,9vw;
+    height: 270px;
+    background-color: rgb(255, 194, 235);
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border-radius: 10px;
+    margin-top: -290px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 2);
+}
+
+.texto{
+    width: 80%;
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+.texto h2{
+    font-size: medium;
+    width: 400px;
+    margin-top: 60px;
+}
+
+.texto p{
+    font-size: medium;
+    width: 400px;
+    height: 90px;
+}
+
+#video{
+    display: flex;
+    justify-content: right;
+    padding: 30px;
+    margin-top: -260px;
+}
+
+footer h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 21vw;
+}
